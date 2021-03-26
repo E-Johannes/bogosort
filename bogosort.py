@@ -14,7 +14,6 @@ def check(list):
     for i in range(len(list)):
         if i+1 < len(list):
             if list[i] <= list[i+1] :
-                print(list[i],list[i+1])
                 continue
             else:
                 return False
