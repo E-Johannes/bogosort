@@ -24,7 +24,7 @@ data = []
 length = int(input("Welche groß ist deine Liste?"))
 
 for i in range(length):
-    elmnt = input("Gebe bitte eine Listenelement ein:")
+    elmnt = input("Gebe bitte ein Wort ein:")
     data.append(elmnt)
     
 
